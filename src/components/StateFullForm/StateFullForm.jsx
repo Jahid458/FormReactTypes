@@ -19,18 +19,15 @@ const StateFullForm = () => {
   }
 
   const handleNameChange = e =>{
-    // console.log(e.target.value)
     setName(e.target.value)
   }
 
   const handlePasswordChange = e =>{
-        // console.log(e.target.value)
         setPassword(e.target.value)
   }
 
 
   const handleEmailChange = e =>{
-    // console.log(e.target.value)
     setemail(e.target.value)
   }
 
